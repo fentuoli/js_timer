@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+.toolbar-font {
+    height: 70px;
+    width: 1140px;
+    background-color: #97A5BC;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.timer-font {
+    height: 440px;
+    width: 1140px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F2F4F7;
+}
+
+#hour {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+#minute {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 130px;
+    top: 15px;
+}
+
+#second {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 220px;
+    top: 15px;
+}
+
+input::placeholder {
+    line-height: 22px;
+    padding: 9px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    color: #AFAFAF;
+}
+
+#countup {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #2188E9;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 310px;
+    top: 15px;
+}
+
+#countdown {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #2188E9;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 428px;
+    top: 15px;
+}
+
+#resume {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #2188E9;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    left: 227px;
+    top: 15px;
+}
+
+#pause {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #2188E9;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    left: 227px;
+    top: 15px;
+}
+
+#clear {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #DD2E1D;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    left: 964px;
+    top: 15px;
+}
+
+#restart {
+    width: 98px;
+    height: 40px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    background-color: #FFB020;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    left: 1082px;
+    top: 15px;
+}
+
+#tip1 {
+    height: 22px;
+    width: 32px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    color: #222222;
+    line-height: 22px;
+    text-align: right;
+    position: absolute;
+    left: 69px;
+    bottom: 24px;
+}
+
+#tip2 {
+    height: 22px;
+    width: 32px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    color: #222222;
+    line-height: 22px;
+    text-align: right;
+    position: absolute;
+    left: 159px;
+    top: 24px;
+}
+
+#tip3 {
+    height: 22px;
+    width: 32px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    color: #222222;
+    line-height: 22px;
+    text-align: right;
+    position: absolute;
+    left: 249px;
+    top: 24px;
+}
+
+#hint {
+    height: 22px;
+    width: 192px;
+    font-family: PTMono-Regular, "PT Mono", PingFangSC-Regular, "PingFang SC", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22px;
+    margin: 0;
+    border: 0;
+    background-color: #97A5BC;
+    position: absolute;
+    left: 40px;
+    top: 24px;
+    display: none;
+}
+
+#time {
+    font-family: PTMono-Bold, "PT Mono", monospace;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    width: 960px;
+    height: 200px;
+    color: #333333;
+    background-color: #F2F4F7;
+    margin: 127px 90px 113px 91px;
+    border: 0;
+    padding: 0;
+}
